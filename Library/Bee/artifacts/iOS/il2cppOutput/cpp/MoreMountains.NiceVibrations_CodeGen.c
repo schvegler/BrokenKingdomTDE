@@ -1,0 +1,143 @@
+﻿#include "pch-c.h"
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB0BF8BBFA16D0576CFA8FF3BC3975DDAB73D1E95 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC3489702D963D69000542C2752172FDDE701D715 (void);
+extern void MMNVPath__ctor_m5AE3E47CA25AE11C247190B48F7663134625C262 (void);
+extern void MMVibrationManager__cctor_m786392C3E5B3E205FDDE608817BD43075DF6BC12 (void);
+extern void MMVibrationManager_SetHapticsActive_m9A2487B080939BB2346DA59C70026A23D5637A5B (void);
+extern void MMVibrationManager_HapticsSupported_m0C402277423AF578EC3513C64028CC05FED4DF64 (void);
+extern void MMVibrationManager_SetDebugMode_m227048B539456CF28D56A6332E2B1AE36D03D23E (void);
+extern void MMVibrationManager_Android_m5C03565DF8A98D5C419027E9D261E55246818E51 (void);
+extern void MMVibrationManager_iOS_mA3712CCDBE6D9A8D902D20FBBC51FC57B5678C15 (void);
+extern void MMVibrationManager_Vibrate_m5C8C33E612BA8010DAD7D2D71C4DA635BBC3B116 (void);
+extern void MMVibrationManager_Haptic_m7EF0B121247FBA25916B2029E854E5B7A9F5BC94 (void);
+extern void MMVibrationManager_TransientHaptic_m3D9FCDE1D32ED45CCE411B819E75C2D3D7890A7F (void);
+extern void MMVibrationManager_TransientHaptic_mBFF7FBEB087009DABCD3453F3E4F9CD4E7D5581B (void);
+extern void MMVibrationManager_ContinuousHaptic_m48887F19FE10FFBDF3A694498FC7C738F80DAC4C (void);
+extern void MMVibrationManager_ContinuousHaptic_m3BB7502E788689AE1B338546D77DA4CB2BF6A84D (void);
+extern void MMVibrationManager_UpdateContinuousHaptic_m7E0EE0E5DF99E12A82C6DC910720C2DE3178B5BE (void);
+extern void MMVibrationManager_UpdateContinuousHaptic_m70393359A32249A4CDB088A976367A6A223CA282 (void);
+extern void MMVibrationManager_StopAllHaptics_mCA73A5A141D125EF3C3148E46831508D81475114 (void);
+extern void MMVibrationManager_StopContinuousHaptic_m27A8727C2F66EFC779CC46686D1B8E83FD67E396 (void);
+extern void MMVibrationManager_AdvancedHapticPattern_m22FDE877FC659D435E29974AF467263796A5BE27 (void);
+extern void MMVibrationManager_AdvancedHapticPattern_m46F09110BCD84EE323CD95AC2A7B132FD3B6139F (void);
+extern void MMVibrationManager_DebugLog_m51628EF1333450C91B593140DD27AF409DD5278D (void);
+extern void MMVibrationManager_Remap_m520D7204E50A0E69F573567919FD6F88E34A7E72 (void);
+extern void MMVibrationManagerTester_TestVibration_m7000C46EABB45C04ED7095FBAA7F76B931FCDFCA (void);
+extern void MMVibrationManagerTester_ContinuousHapticsCoroutine_mD50A42127B47AA49BA9D290E51035B06C972651E (void);
+extern void MMVibrationManagerTester_ComputeElapsedTime_mCA60174B1B953A4BD25753FE36D298A8FFEA7DE2 (void);
+extern void MMVibrationManagerTester_Remap_mC66CE232A8A5E088AFA02D1AAE41986BA9A0EEA5 (void);
+extern void MMVibrationManagerTester__ctor_mB50FE7AFF1A16DC005014E0716E73D7E05A4BB43 (void);
+extern void U3CContinuousHapticsCoroutineU3Ed__23__ctor_mDB29728AD705214E4D90704BDAB815CC5522DC04 (void);
+extern void U3CContinuousHapticsCoroutineU3Ed__23_System_IDisposable_Dispose_m27A223B71C3BD92CA15CC694C1B2E99DAA305B38 (void);
+extern void U3CContinuousHapticsCoroutineU3Ed__23_MoveNext_m5788E7C2FAF703ADF97533394CBA561C2A589C3C (void);
+extern void U3CContinuousHapticsCoroutineU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3FD1DEEC7062C5C1E2D5AFDB9638005A037B1A69 (void);
+extern void U3CContinuousHapticsCoroutineU3Ed__23_System_Collections_IEnumerator_Reset_m703303F4201BBE7C0FC7DD4303F31408A7C0DE12 (void);
+extern void U3CContinuousHapticsCoroutineU3Ed__23_System_Collections_IEnumerator_get_Current_mE5C22AAC37E4CCDFDBF4197AD78BBA4C02D8B641 (void);
+static Il2CppMethodPointer s_methodPointers[34] = 
+{
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mB0BF8BBFA16D0576CFA8FF3BC3975DDAB73D1E95,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mC3489702D963D69000542C2752172FDDE701D715,
+	MMNVPath__ctor_m5AE3E47CA25AE11C247190B48F7663134625C262,
+	MMVibrationManager__cctor_m786392C3E5B3E205FDDE608817BD43075DF6BC12,
+	MMVibrationManager_SetHapticsActive_m9A2487B080939BB2346DA59C70026A23D5637A5B,
+	MMVibrationManager_HapticsSupported_m0C402277423AF578EC3513C64028CC05FED4DF64,
+	MMVibrationManager_SetDebugMode_m227048B539456CF28D56A6332E2B1AE36D03D23E,
+	MMVibrationManager_Android_m5C03565DF8A98D5C419027E9D261E55246818E51,
+	MMVibrationManager_iOS_mA3712CCDBE6D9A8D902D20FBBC51FC57B5678C15,
+	MMVibrationManager_Vibrate_m5C8C33E612BA8010DAD7D2D71C4DA635BBC3B116,
+	MMVibrationManager_Haptic_m7EF0B121247FBA25916B2029E854E5B7A9F5BC94,
+	MMVibrationManager_TransientHaptic_m3D9FCDE1D32ED45CCE411B819E75C2D3D7890A7F,
+	MMVibrationManager_TransientHaptic_mBFF7FBEB087009DABCD3453F3E4F9CD4E7D5581B,
+	MMVibrationManager_ContinuousHaptic_m48887F19FE10FFBDF3A694498FC7C738F80DAC4C,
+	MMVibrationManager_ContinuousHaptic_m3BB7502E788689AE1B338546D77DA4CB2BF6A84D,
+	MMVibrationManager_UpdateContinuousHaptic_m7E0EE0E5DF99E12A82C6DC910720C2DE3178B5BE,
+	MMVibrationManager_UpdateContinuousHaptic_m70393359A32249A4CDB088A976367A6A223CA282,
+	MMVibrationManager_StopAllHaptics_mCA73A5A141D125EF3C3148E46831508D81475114,
+	MMVibrationManager_StopContinuousHaptic_m27A8727C2F66EFC779CC46686D1B8E83FD67E396,
+	MMVibrationManager_AdvancedHapticPattern_m22FDE877FC659D435E29974AF467263796A5BE27,
+	MMVibrationManager_AdvancedHapticPattern_m46F09110BCD84EE323CD95AC2A7B132FD3B6139F,
+	MMVibrationManager_DebugLog_m51628EF1333450C91B593140DD27AF409DD5278D,
+	MMVibrationManager_Remap_m520D7204E50A0E69F573567919FD6F88E34A7E72,
+	MMVibrationManagerTester_TestVibration_m7000C46EABB45C04ED7095FBAA7F76B931FCDFCA,
+	MMVibrationManagerTester_ContinuousHapticsCoroutine_mD50A42127B47AA49BA9D290E51035B06C972651E,
+	MMVibrationManagerTester_ComputeElapsedTime_mCA60174B1B953A4BD25753FE36D298A8FFEA7DE2,
+	MMVibrationManagerTester_Remap_mC66CE232A8A5E088AFA02D1AAE41986BA9A0EEA5,
+	MMVibrationManagerTester__ctor_mB50FE7AFF1A16DC005014E0716E73D7E05A4BB43,
+	U3CContinuousHapticsCoroutineU3Ed__23__ctor_mDB29728AD705214E4D90704BDAB815CC5522DC04,
+	U3CContinuousHapticsCoroutineU3Ed__23_System_IDisposable_Dispose_m27A223B71C3BD92CA15CC694C1B2E99DAA305B38,
+	U3CContinuousHapticsCoroutineU3Ed__23_MoveNext_m5788E7C2FAF703ADF97533394CBA561C2A589C3C,
+	U3CContinuousHapticsCoroutineU3Ed__23_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m3FD1DEEC7062C5C1E2D5AFDB9638005A037B1A69,
+	U3CContinuousHapticsCoroutineU3Ed__23_System_Collections_IEnumerator_Reset_m703303F4201BBE7C0FC7DD4303F31408A7C0DE12,
+	U3CContinuousHapticsCoroutineU3Ed__23_System_Collections_IEnumerator_get_Current_mE5C22AAC37E4CCDFDBF4197AD78BBA4C02D8B641,
+};
+static const int32_t s_InvokerIndices[34] = 
+{
+	8461,
+	5677,
+	5677,
+	8440,
+	8246,
+	8380,
+	8246,
+	8380,
+	8380,
+	8440,
+	6291,
+	6328,
+	5793,
+	5849,
+	5789,
+	6327,
+	5809,
+	8246,
+	8246,
+	5801,
+	5788,
+	8276,
+	6249,
+	5677,
+	5567,
+	5610,
+	6249,
+	5677,
+	4555,
+	5677,
+	5472,
+	5567,
+	5677,
+	5567,
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_MoreMountains_NiceVibrations_CodeGenModule;
+const Il2CppCodeGenModule g_MoreMountains_NiceVibrations_CodeGenModule = 
+{
+	"MoreMountains.NiceVibrations.dll",
+	34,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	0,
+	NULL,
+	0,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};

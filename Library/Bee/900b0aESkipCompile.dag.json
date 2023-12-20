@@ -1,0 +1,316 @@
+{
+  "Nodes": [
+    {
+      "Annotation": "all_tundra_nodes",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2,
+        3
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 0
+    },
+    {
+      "Annotation": "ScriptAssemblies",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 1
+    },
+    {
+      "Annotation": "BuildPlayerDataGenerator Library/BuildPlayerData/Editor/TypeDb-All.json",
+      "DisplayName": "BuildPlayerDataGenerator TypeDb-All",
+      "Action": "\"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/netcorerun/netcorerun\" \"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Assembly-CSharp.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Cinemachine.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.Authorizations.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.Cinemachine.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.HDRP.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.MMTools.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.NiceVibrations.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.PostProcessing.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.TextMeshPro.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Feedbacks.URP.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Interface.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.InventoryEngine.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.NiceVibrations.Demos.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.NiceVibrations.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.NiceVibrations.Haptics.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.Tools.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/MoreMountains.TopDownEngine.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/NavMeshComponents.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Unity.AI.Navigation.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Unity.TextMeshPro.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/Unity.Timeline.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/UnityEngine.TestRunner.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies/UnityEngine.UI.dll\" -a=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll\" -s=\"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Managed/UnityEngine\" -s=\"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netfx\" -s=\"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/compat/2.1.0/shims/netstandard\" -s=\"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/Extensions/2.0.0\" -s=\"/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/NetStandard/ref/2.1.0\" -s=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Assets/NiceVibrations/ThirdParty/Newtonsoft\" -s=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/ScriptAssemblies\" -s=\"/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom\" -o=\"Library/BuildPlayerData/Editor\" -rn=\"\" -tn=\"TypeDb-All.json\"",
+      "Inputs": [
+        "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/netcorerun/netcorerun",
+        "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPlayerDataGenerator/BuildPlayerDataGenerator.exe",
+        "Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll",
+        "Library/ScriptAssemblies/Assembly-CSharp.dll",
+        "Library/ScriptAssemblies/Cinemachine.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.Authorizations.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.Cinemachine.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.HDRP.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.MMTools.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.NiceVibrations.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.PostProcessing.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.TextMeshPro.dll",
+        "Library/ScriptAssemblies/MoreMountains.Feedbacks.URP.dll",
+        "Library/ScriptAssemblies/MoreMountains.Interface.dll",
+        "Library/ScriptAssemblies/MoreMountains.InventoryEngine.dll",
+        "Library/ScriptAssemblies/MoreMountains.NiceVibrations.Demos.dll",
+        "Library/ScriptAssemblies/MoreMountains.NiceVibrations.dll",
+        "Library/ScriptAssemblies/MoreMountains.NiceVibrations.Haptics.dll",
+        "Library/ScriptAssemblies/MoreMountains.Tools.dll",
+        "Library/ScriptAssemblies/MoreMountains.TopDownEngine.dll",
+        "Library/ScriptAssemblies/NavMeshComponents.dll",
+        "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll",
+        "Library/ScriptAssemblies/Unity.AI.Navigation.dll",
+        "Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll",
+        "Library/ScriptAssemblies/Unity.TextMeshPro.dll",
+        "Library/ScriptAssemblies/Unity.Timeline.dll",
+        "Library/ScriptAssemblies/UnityEngine.TestRunner.dll",
+        "Library/ScriptAssemblies/UnityEngine.UI.dll",
+        "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+      ],
+      "Outputs": [
+        "Library/BuildPlayerData/Editor/TypeDb-All.json"
+      ],
+      "AllowUnexpectedOutput": true,
+      "Env": [],
+      "DebugActionIndex": 2
+    },
+    {
+      "Annotation": "ScriptAssembliesAndTypeDB",
+      "DisplayName": null,
+      "Inputs": [],
+      "Outputs": [],
+      "ToBuildDependencies": [
+        1,
+        2
+      ],
+      "OverwriteOutputs": false,
+      "DebugActionIndex": 3
+    }
+  ],
+  "FileSignatures": [
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.BuildTools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Core.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.CSharpSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.DotNet.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.NativeProgramSupport.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Stevedore.Program.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TinyProfiler2.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.GNU.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.LLVM.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.VisualStudio.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Toolchain.Xcode.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.Tools.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.TundraBackend.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Bee.VisualStudioSolution.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/BeeBuildProgramCommon.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/NiceIO.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/PlayerBuildProgramLibrary.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/ScriptCompilationBuildProgram.exe"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/SharpYaml.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Api.Attributes.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Mdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Pdb.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Cecil.Rocks.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.BuildLogic.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.IL2CPP.Bee.IL2CPPExeCompileCppBuildProgram.Data.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Linker.Api.dll"
+    },
+    {
+      "File": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline/Unity.Options.dll"
+    },
+    {
+      "File": "Library/Bee/900b0aESkipCompile-inputdata.json"
+    }
+  ],
+  "StatSignatures": [
+    {
+      "File": "/Volumes/Data/Unity/brokenkingdom_Bitbucket/getconf"
+    },
+    {
+      "File": "Assets/csc.rsp"
+    },
+    {
+      "File": "Assets/mcs.rsp"
+    },
+    {
+      "File": "Assets/NiceVibrations/ThirdParty/Newtonsoft/Newtonsoft.Json.dll"
+    },
+    {
+      "File": "Library/Bee/900b0aESkipCompile-inputdata.json"
+    },
+    {
+      "File": "Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Assembly-CSharp.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Cinemachine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.Authorizations.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.Cinemachine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.HDRP.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.MMTools.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.NiceVibrations.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.PostProcessing.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Feedbacks.URP.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Interface.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.InventoryEngine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.NiceVibrations.Demos.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.NiceVibrations.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.NiceVibrations.Haptics.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.Tools.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/MoreMountains.TopDownEngine.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/NavMeshComponents.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.2D.PixelPerfect.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.AI.Navigation.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Postprocessing.Runtime.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.TextMeshPro.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/Unity.Timeline.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.TestRunner.dll"
+    },
+    {
+      "File": "Library/ScriptAssemblies/UnityEngine.UI.dll"
+    }
+  ],
+  "GlobSignatures": [
+    {
+      "Path": "/Applications/Unity/Hub/Editor/2022.3.15f1/Unity.app/Contents/Tools/BuildPipeline"
+    }
+  ],
+  "ContentDigestExtensions": [
+    ".rsp",
+    ".dll",
+    ".exe",
+    ".pdb"
+  ],
+  "StructuredLogFileName": "Library/Bee/tundra.log.json",
+  "StateFileName": "Library/Bee/TundraBuildState.state",
+  "StateFileNameTmp": "Library/Bee/TundraBuildState.state.tmp",
+  "StateFileNameMapped": "Library/Bee/TundraBuildState.state.map",
+  "ScanCacheFileName": "Library/Bee/tundra.scancache",
+  "ScanCacheFileNameTmp": "Library/Bee/tundra.scancache.tmp",
+  "DigestCacheFileName": "Library/Bee/tundra.digestcache",
+  "DigestCacheFileNameTmp": "Library/Bee/tundra.digestcache.tmp",
+  "CachedNodeOutputDirectoryName": "Library/Bee/CachedNodeOutput",
+  "EmitDataForBeeWhy": 0,
+        "NamedNodes": {
+          "all_tundra_nodes": 0,
+          "ScriptAssemblies": 1,
+          "ScriptAssembliesAndTypeDB": 3
+        }
+,  "DefaultNodes": [
+    0
+  ],
+  "SharedResources": [],
+  "Scanners": [],
+  "Identifier": "Library/Bee/900b0aESkipCompile.dag.json",
+  "PayloadsFile": "/Volumes/Data/Unity/brokenkingdom_Bitbucket/Library/Bee/900b0aESkipCompile.dag.payloads",
+  "RelativePathToRoot": "../.."
+}
